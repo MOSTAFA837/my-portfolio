@@ -13,6 +13,7 @@ import travel from "@/public/travel.png";
 import stackoverflow from "@/public/stackoverflow.png";
 import easebank from "@/public/ease-bank.png";
 import tesla from "@/public/tesla.png";
+import discordclone from "@/public/discordclone.png";
 
 export const links = [
   {
@@ -160,6 +161,16 @@ export const projectsData = [
     category: "javascript",
     live: "https://mostafa837.github.io/TheRoad/",
     github: "https://github.com/MOSTAFA837/TheRoad",
+  },
+  {
+    title: "Discord Clone",
+    description:
+      "A popular communication platform designed for creating communities and facilitating real-time, text, voice, and video communication.",
+    tags: ["TypeScript", "Next.js 13", "Tailwind", "Prisma"],
+    imageUrl: discordclone,
+    category: "next.js",
+    live: "https://discord-clone-sage-zeta.vercel.app",
+    github: "https://github.com/MOSTAFA837/discord-clone",
   },
 ] as const;
 
